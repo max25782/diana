@@ -109,7 +109,7 @@ function closeCarousel() {
 }
 
 function renderMediaItem(mediaUrl) {
-  if (/\.(mp4|MOV)$/i.test(mediaUrl)) {
+  if (/\.(mp4)$/i.test(mediaUrl)) {
     // Return video HTML
     return `
       <div class="swiper-slide">
