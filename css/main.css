@@ -1,0 +1,677 @@
+@import "./reset.css";
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap");
+
+
+:root {
+  /* Colors */
+  --blackpure: #000;
+  --black: #000000;
+  --black-border: #000000;
+  --white: #fff;
+  --purple: #000000;
+
+  /* Nav */
+  /* --nav-bg: var(--black); */
+  --nav-border: var(--black-border);
+  --nav-text: var(--black);
+
+  /* Header */
+  --header-bg: var(--black);
+  --header-text: var(--white);
+
+  /* Footer */
+  --footer-bg: var(--black);
+  --footer-text: var(--white);
+}
+
+
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "DM Sans", sans-serif;
+  letter-spacing: -0.5px;
+  background-image: url(../img/image/background.jpg);
+
+  /* Light mode */
+  background-color: var(--page-bg);
+  color: var(--text-color);
+}
+
+
+.animated-section {
+    height: 100%;
+    opacity: 0;
+}
+.project_Ten img{
+  object-fit: cover;
+  height: 853.33px;
+}
+
+/* General */
+.container{
+  margin-top: 0%;
+  padding: 10px 40px;
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.about{
+
+  height: 100%;
+}
+.about-wrapper{
+   /* background-image: url("../img/image/IMG_6167.jpg"); */
+  background-size:cover;
+  margin-top: 0%;
+  padding: 10px 40px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 100px;
+ 
+
+
+}
+.about_title{
+  font-family: "Montserrat", sans-serif;
+  font-size: 90px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  line-height: 1.3;
+  text-align: left;
+}
+.about_text{
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 2;
+  text-align: justify;
+  width: 68%;
+   margin-top: 10%;
+}
+.about_text h2{
+  font-size: 1.5rem;
+}
+
+
+
+.accordion {
+  max-width: 100%;
+  min-height: 100vh;
+  margin-left: 2%;
+  border: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.textSocialTitle {
+  margin-top: 5%;
+  max-width: 450px;
+  /* color: #fff; */
+}
+.contentAccordion {
+  max-width: 450px;
+  margin-top: 30%;
+}
+.wrapper {
+  
+  background-image: url("../img/image/IMG_6822.JPG");
+  width: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.none {
+  display: none !important;
+}
+
+.section {
+ background-image: url("../img/image/IMG_6231.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px 0;
+  min-height: 1300px;
+}
+
+.title-1 {
+  
+  margin-bottom: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  line-height: 1.3;
+  text-align: left;
+}
+
+.title-2 {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300;
+   font-family: "Montserrat", sans-serif;
+}
+
+/* Nav */
+
+.nav {
+  padding: 0;
+  background-color: var(--nav-bg);
+  color: var(--text);
+  letter-spacing: normal;
+  font-family: "Montserrat", sans-serif;
+}
+.container-nav {
+  margin-top: 0%;
+  padding: 10px 40px;
+  max-width: 100%;
+}
+
+.nav-row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 30px;
+  row-gap: 20px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  margin-right: auto;
+  color: var(--nav-text);
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 3px;
+}
+
+.logo strong {
+  font-weight: 400;
+}
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  align-items: center;
+  column-gap: 40px;
+  font-size: 11px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 3px;
+
+}
+.nav-list >li:hover .nav-list_list {
+  display: block;
+}
+.nav-list_list {
+  display: none;
+  min-width: 150px;
+  position: absolute;
+  height: 100vh;
+  color: #060606;
+  padding: 5px 0px 0px 20px;
+  opacity: 0.8;
+  font-size: 12px;
+  text-align: left;
+
+}
+.nav-list-link {
+  position: relative;
+  color: #000000;
+  display: inline-block;
+  padding: 20px 10px 0px 0px;
+    
+}
+.nav-list-link:after {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #000;
+   width: 0;
+  transition: 0.3s;
+} 
+.nav-list-link:hover:after{
+  width: 100%;
+  opacity: 0.7;
+  text-decoration: underline;
+}
+
+/* Header */
+
+
+
+.header__wrapper {
+  padding: 0 15px;
+  max-width: 450px;
+  margin-left: 65%;
+  margin-top: 15%;
+}
+
+.header__title {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.header__title strong {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 10px;
+}
+
+.header__text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 2;
+  text-align: justify;
+}
+
+.textSocialTitle strong {
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing:0.5px;
+  
+
+  
+}
+.textSocialTitle p {
+  max-width: 400px;
+  letter-spacing: 0.2px;
+  text-align: justify;
+}
+.btnViewProject {
+  font-size: 16px;
+  font-family: "PT Serif", serif;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.item{
+  display:flex;
+}
+
+/* Projects  */
+
+.projects {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap:10px;
+  row-gap: 20px;
+
+ 
+}
+
+.project {
+ 
+  width: 480px;
+  height: 100%;
+
+  
+
+}
+.image_text{
+  text-align: center;
+}
+
+.project_Two{
+
+ flex-basis: 360px;
+  max-height: 550px;
+}
+
+.project_Five{
+  max-width: 360px; 
+ max-height: 550px;
+  margin-top: -15%;
+}
+
+.project_Eight{
+  max-width: 360px;
+  max-height: 550px;
+  margin-top: -28%;
+}
+
+.project_Eleven{
+   max-width: 360px;
+   margin-top: -42%;
+}
+
+.project_Thirteen{
+  max-width: 360px;
+ 
+  margin-top: -55%;
+}
+
+
+.project__title {
+  padding: 15px 20px 25px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.3;
+ 
+}
+
+/* Project details */
+
+.project-details {
+  margin: 150px auto;
+  max-width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 20px;
+  text-align: center;
+}
+
+.project-details__cover {
+  max-width: 680px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  padding:0px;
+  box-shadow: var(--box-shadow);
+
+}
+
+.product{
+  width: 480px;
+  height: 780px;
+ 
+}
+
+/* Content list */
+.contacts{
+  max-width: 500px;
+  margin-left: 45%;
+  margin-right: 50%;
+  margin-top: 15%;
+}
+
+.content-list {
+  margin: 0 auto;
+  max-width: 570px;
+
+} 
+
+.content-list__item {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+
+}
+
+
+.content-list__item p + p {
+  margin-top: 0.2em;
+  text-align: center;
+  
+}
+
+/* Footer */
+
+.footer {
+  margin-top: auto;
+  padding: 20px 0 2%;
+  background-color: var(--footer-bg);
+  color: var(--footer-text);
+}
+
+.footer__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 27px;
+}
+
+
+
+.copyright {
+  font-size: 16px;
+}
+
+.copyright p + p {
+  margin-top: 0.5em;
+}
+
+.content {
+  transition: 0.3s ease-in-out;
+  max-height: 0;
+  overflow: hidden;
+  text-align: justify;
+  /* color: #fff; */
+  margin-bottom: 5px;
+}
+.accordionButton {
+  cursor: pointer;
+  padding: 15px;
+  background-color: #ffffff34;
+  margin: -4px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+/* Modal */
+/* Modal container */
+.carousel-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.carousel-modal .modal-content {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #ffffff00;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.carousel-modal .modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  color: #000;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.swiper {
+  width: 100%;
+  height: 100vh;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-image {
+  max-width: 100%;
+  max-height: 100vh;
+}
+
+.carousel-video {
+  max-width: 100%;
+  max-height: 100%;
+}
+.modal-close{
+  z-index: 10;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 620px) {
+  /* Header  */
+
+  .header {
+    min-height: unset;
+  }
+  .header__wrapper{
+    max-height: max-content;
+    margin-left: auto;
+    margin-bottom: 10%;
+  }
+
+  .header__title {
+    font-size: 30px;
+  }
+
+  .header__title strong {
+    font-size: 40px;
+  }
+
+  /* Nav */
+
+  .nav-row {
+    justify-content: space-between;
+  }
+
+  .dark-mode-btn {
+    order: 0;
+  }
+
+  /* General */
+
+  .section {
+    padding: 40px 0;
+  }
+
+  .title-1 {
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .title-2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+
+  /* Projects */
+
+  .project__title {
+    font-size: 22px;
+  }
+
+  /* Project page */
+
+  .project-details__desc {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+  .project_Five{
+  max-width: 360px; 
+  margin-top: 0;
+  
+}
+
+.project_Eight{
+  max-width: 360px;
+  max-height: 550px;
+  margin-top: 0%;
+}
+
+  /* Content List */
+
+  .content-list {
+    row-gap: 20px;
+  }
+
+  .content-list__item {
+    font-size: 16px;
+  }
+
+  /* Footer */
+
+  .footer {
+    padding: 40px 0 30px;
+  }
+
+  .footer__wrapper {
+    row-gap: 20px;
+  }
+
+  /* Social */
+
+  .social {
+    column-gap: 20px;
+  }
+
+  .social__item {
+    width: 28px;
+  }
+}
+@media(max-width:930px){
+    .project_Five{
+  max-width: 360px; 
+  margin-top: 0;
+  
+}
+    .project_Two{
+  max-width: 360px; 
+  margin-top: 0;
+  
+}
+.project_Eight{
+  max-width: 360px;
+  max-height: 550px;
+  margin-top: 0%;
+}
+
+}
+@media(max-width:1420px){
+    .project_Five, .project_One, .project_Seven, .project_four, .project_Two, .project_Eight{
+  max-width: 420px; 
+  margin-top: 0%;
+  
+}
+.project_three, .project_Six, .project_Nine{
+  max-width: 620px;
+  margin-bottom: 5%;
+}
+
+
+}
+@media(min-width:1900px){
+    .project_Five,  .project_Seven, .project_four, .project_Two, .project_Eight{
+  max-width: 420px; 
+  margin-top: 0%;
+  
+}
+.project_three, .project_Six, .project_One, .project_Nine, .project_Five {
+  max-width: 620px;
+  margin-bottom: 5%;
+}
+
+
+}
+
+
