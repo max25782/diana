@@ -64,7 +64,7 @@ const projects = [
       image33: "img/image/Department/33.jpg",
       image34: "img/image/Department/34.jpg",
       image35: "img/image/Department/35.jpg",
-      image36: "img/image/Department/36.jpg",
+      image36: "img/image/Department/36.jpg"
     },
   },
   {
