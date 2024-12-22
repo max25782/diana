@@ -52,7 +52,7 @@ const projects = [
       image21: "img/image/Department/21.jpg",
       image22: "img/image/Department/22.jpg",
       image23: "img/image/Department/23.jpg",
-      image24: "img/image/Department/24.JPG",
+      image24: "img/image/Department/24.jpg",
       image25: "img/image/Department/25 (2).jpg",
       image26: "img/image/Department/26.jpg",
       image27: "img/image/Department/27.jpg",
