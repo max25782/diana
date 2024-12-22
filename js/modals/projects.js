@@ -192,7 +192,7 @@ const projects = [
       image11: "img/image/MuyriProduction/11.JPG",
       image12: "img/image/MuyriProduction/12.JPG",
       image13: "img/image/MuyriProduction/13.mp4",
-      image14: "img/image/MuyriProduction/14.png",
+      image14: "img/image/MuyriProduction/14.png"
     },
   },
   {
@@ -221,7 +221,7 @@ const projects = [
       image2: "img/image/packsh/2.JPG",
       image3: "img/image/packsh/3.JPG",
       image4: "img/image/packsh/4.JPG",
-      image5: "img/image/packsh/5.jpg",
+      image5: "img/image/packsh/5.JPG",
       image6: "img/image/packsh/6.JPG",
       image7: "img/image/packsh/7.JPG",
       image8: "img/image/packsh/8.JPG",
@@ -246,7 +246,7 @@ const projects = [
       image12: "img/image/roni/12.JPG",
       image13: "img/image/roni/13.JPG",
       image14: "img/image/roni/14.JPG",
-      image15: "img/image/roni/15.PNG",
+      image15: "img/image/roni/15.png",
       image16: "img/image/roni/16.JPG",
       image17: "img/image/roni/17.JPG",
       image18: "img/image/roni/18.JPG",
