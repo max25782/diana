@@ -109,7 +109,7 @@ const projects = [
     id: "0104",
     name: "ofer",
     photo: {
-      image1: "img/image/9 עופר/New Element 13.MP4",
+      image1: "img/image/9 עופר/New Element 13.mp4",
     },
   },
   {
