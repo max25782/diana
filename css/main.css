@@ -551,10 +551,8 @@ a {
     
   }
   .header__text{
-    color: #FFFFCC
-;
+    color: #FFFFCC;
     margin-top: 180%;
-=======
     margin-bottom: 10%;
     
   }
@@ -613,10 +611,12 @@ a {
   margin-top: 0;
   
 }
-.project_three{
-   max-width: 100%; 
-    margin-top: 40%;
+.project_Two{
+  max-width: 360px; 
+  margin-bottom: 10%;
+  
 }
+
 .project_Six{
   margin-top: 40%;
 }
