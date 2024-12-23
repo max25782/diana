@@ -518,7 +518,7 @@ a {
 
 .carousel-video {
   max-width: 100%;
-  max-height: 100%;
+  max-height: 100vh;
 }
 .modal-close{
   z-index: 100;
@@ -617,6 +617,7 @@ a {
   
 }
 
+
 .project_Six{
   margin-top: 40%;
 }
@@ -683,11 +684,7 @@ a {
   .footer__wrapper {
     row-gap: 20px;
   }
-  .modal-close{
-  z-index: 100;
-  margin-right: 45px;
-  color: #d3ad59;
-}
+
 }
 
 @media(max-width:930px){
