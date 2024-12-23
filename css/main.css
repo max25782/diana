@@ -273,6 +273,7 @@ a {
   font-size: 16px;
   line-height: 2;
   text-align: justify;
+  
 }
 
 .textSocialTitle strong {
@@ -536,11 +537,13 @@ a {
   .header__wrapper{
     max-height: max-content;
     margin-left: auto;
-    margin-bottom: 10%;
+  
+    
     
   }
   .header__text{
-    color: #fff;
+    /* color: #fff; */
+    margin-top: 160%;
   }
 
   .header__title {
@@ -558,9 +561,7 @@ a {
     justify-content: space-between;
   }
 
-  .dark-mode-btn {
-    order: 0;
-  }
+
 
   /* General */
 
