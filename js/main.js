@@ -91,13 +91,16 @@ function openCarousel(projectId) {
         breakpoints: {
           320: {
             slidesPerView: 1,
-            spaceBetween: 10,
+            spaceBetween: 5,
           },
           480: {
             slidesPerView: 1.5,
             spaceBetween: 10,
           },
-          
+          768: {
+            slidesPerView: 1.5,
+            spaceBetween: 10,
+          },
           1024: {
             slidesPerView: 3.5,
             spaceBetween: 10,
@@ -122,7 +125,7 @@ function closeCarousel() {
 }
 
 function renderMediaItem(mediaUrl) {
-  if (/\.(mp4|MP4)$/i.test(mediaUrl)) {
+  if (/\.(mp4|MOV)$/i.test(mediaUrl)) {
     // Return video HTML
     return `
       <div class="swiper-slide">
