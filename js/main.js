@@ -1,6 +1,5 @@
 import { projects } from "./modals/projects.js";
 
-
 document.querySelectorAll(".accordionButton").forEach((el) => {
   el.addEventListener("click", () => {
     let content = el.nextElementSibling;
@@ -64,7 +63,6 @@ gsap.to(".animated-section", {
   },
 });
 
-
 let swiperInstance = null;
 
 function openCarousel(projectId) {
@@ -90,6 +88,21 @@ function openCarousel(projectId) {
         },
         loop: true,
         parallax: true,
+        breakpoints: {
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          480: {
+            slidesPerView: 1.5,
+            spaceBetween: 10,
+          },
+          
+          1024: {
+            slidesPerView: 3.5,
+            spaceBetween: 10,
+          },
+        },
       });
     } else {
       swiperInstance.update();
@@ -118,15 +131,13 @@ function renderMediaItem(mediaUrl) {
           Your browser does not support the video tag.
         </video>
       </div>`;
-  }
-   else if (/\.(JPG|jpeg|PNG|jpg)$/i.test(mediaUrl)) {
+  } else if (/\.(JPG|jpeg|PNG|jpg)$/i.test(mediaUrl)) {
     return `
       <div class="swiper-slide">
         <img src="${mediaUrl}" class="carousel-image" alt="Project Media">
       </div>`;
   }
   // Handle unsupported media
-
   else {
     // Return image HTML
     return `
@@ -139,4 +150,3 @@ function renderMediaItem(mediaUrl) {
 // Attach functions globally for HTML use
 window.openCarousel = openCarousel;
 window.closeCarousel = closeCarousel;
-

@@ -503,13 +503,14 @@ a {
 
 .swiper-slide {
   display: flex;
+  
   justify-content: center;
   align-items: center;
 }
 
 .carousel-image {
-  max-width: 100%;
-  max-height: 100vh;
+  width: 100%;
+  height: 100vh;
 }
 
 .carousel-video {
@@ -530,6 +531,13 @@ a {
 
 @media (max-width: 620px) {
   /* Header  */
+  .wrapper{
+    background-image: url("../img/image/IMG_6822.jpg");
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
   .header {
     min-height: unset;
@@ -542,8 +550,9 @@ a {
     
   }
   .header__text{
-    /* color: #fff; */
-    margin-top: 160%;
+    color: #FFFFCC
+;
+    margin-top: 180%;
   }
 
   .header__title {
@@ -681,9 +690,14 @@ a {
   margin-top: 0;
   
 }
-    .project_Two{
+    .project_three{
   max-width: 360px; 
-  margin-top: 0;
+  margin-top: 25%;
+  
+}
+.project_Six{
+  max-width: 360px; 
+  margin-top: 40%;
   
 }
 .project_Eight{
@@ -691,8 +705,21 @@ a {
   max-height: 550px;
   margin-top: 0%;
 }
+.project_Nine{
+  max-width: 360px;
+  margin-top: 30%;
 
 }
+.project_Eleven{
+  max-width: 360px;
+  margin-top: 5%;
+}
+.project_Thirteen{
+  max-width: 360px;
+  margin-top: 5%;
+}
+}
+
 @media(max-width:1420px){
     .project_Five, .project_One, .project_Seven, .project_four, .project_Two, .project_Eight{
   max-width: 420px; 
