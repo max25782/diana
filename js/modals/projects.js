@@ -8,7 +8,7 @@ const projects = [
       image3: "img/image/CocoNoam/3.JPG",
       image4: "img/image/CocoNoam/4.JPG",
       image5: "img/image/CocoNoam/5.JPG",
-      image6: "img/image/CocoNoam/6.png",
+      image6: "img/image/CocoNoam/6.PNG",
       image7: "img/image/CocoNoam/7.JPG",
       image8: "img/image/CocoNoam/8.JPG",
       image9: "img/image/CocoNoam/9.JPG",
