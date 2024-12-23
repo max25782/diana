@@ -63,12 +63,10 @@ a {
   height: 100%;
 }
 .about-wrapper{
-<<<<<<< HEAD
+
   
-=======
-   /* background-image: url("../img/image/IMG_6167.JPG"); */
   background-size:cover;
->>>>>>> fd26c0195296dabcefc984c50053734da6b579fd
+
   margin-top: 0%;
   padding: 10px 40px;
   max-width: 100%;
@@ -550,9 +548,6 @@ a {
   .header__wrapper{
     max-height: max-content;
     margin-left: auto;
-<<<<<<< HEAD
-  
-    
     
   }
   .header__text{
@@ -565,7 +560,6 @@ a {
   }
   .header__text{
     color: #fff;
->>>>>>> fd26c0195296dabcefc984c50053734da6b579fd
   }
 
   .header__title {
@@ -651,10 +645,7 @@ a {
     margin-top: 0%;
   }
   /* About */
-<<<<<<< HEAD
-=======
-  
->>>>>>> fd26c0195296dabcefc984c50053734da6b579fd
+
 .about-wrapper{
   display: flex;
   flex-direction: column;
@@ -663,35 +654,24 @@ a {
   padding: 10px 40px;
   max-width: 100%
 }
-<<<<<<< HEAD
-=======
-  
->>>>>>> fd26c0195296dabcefc984c50053734da6b579fd
 .about_text{
   font-size: 14px;
   width: 100%;
   margin-top: 0%;
 }
-<<<<<<< HEAD
-=======
-  
->>>>>>> fd26c0195296dabcefc984c50053734da6b579fd
  .about_title{
     font-size: 40px;
     margin-top: 0%;
   }
-<<<<<<< HEAD
+
  /* contacts */
-=======
+
   
  /* contacts */
-  
->>>>>>> fd26c0195296dabcefc984c50053734da6b579fd
-  .contacts{
-    max-width: 100%;
-    margin-left: 0%;
-    margin-right: 0%;
-    margin-top: 0%;
+
+  .contacts {
+    max-width:100%;
+ 
   }
 
 
@@ -705,6 +685,7 @@ a {
     row-gap: 20px;
   }
 }
+
 @media(max-width:930px){
     .project_Five{
   max-width: 360px; 
