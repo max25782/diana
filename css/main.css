@@ -494,8 +494,8 @@ a {
   right: 35px;
   background: transparent;
   border: none;
-  color: #000;
-  font-size: 24px;
+  color: #f3f042;
+  font-size: 45px;
   cursor: pointer;
 }
 
@@ -685,6 +685,8 @@ a {
   }
   .modal-close{
   z-index: 100;
+  margin-right: 45px;
+  color: #d3ad59;
 }
 }
 
