@@ -664,7 +664,6 @@ a {
     margin-top: 0%;
   }
 
- /* contacts */
 
   
  /* contacts */
@@ -684,6 +683,9 @@ a {
   .footer__wrapper {
     row-gap: 20px;
   }
+  .modal-close{
+  z-index: 10;
+}
 }
 
 @media(max-width:930px){
