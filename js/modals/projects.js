@@ -3,7 +3,7 @@ const projects = [
     id: "0101",
     name: "Coconut",
     photo: {
-      image1: "img/image/CocoNoam/1.JPG",
+      image1: "img/image/CocoNoam/1.jpg",
       image2: "img/image/CocoNoam/2.JPG",
       image3: "img/image/CocoNoam/3.JPG",
       image4: "img/image/CocoNoam/4.JPG",
