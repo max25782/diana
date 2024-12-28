@@ -2,8 +2,21 @@ const projects = [
   {
     id: "0101",
     name: "Coconut",
-    description:
-      "A collaboration project showcasing the unique designs of Coconut Love and Noam Bohadana.",
+    description: {
+      text1:
+        "IN THIS PROJECT, I TOOK A PART AS THE SOCIAL MENAGER  & CREATIVE DIRECTOR.",
+      text2:
+        "- Led the creative direction for post-production, transforming raw visuals into a cohesive story.",
+      text3: "- Curated and styled images to craft a captivating narrative.",
+      text4:
+        "- Developed storytelling concepts and campaign names to bring the project to life.",
+      text5:
+        "- Directed graphic design, ensuring visuals aligned with the creative vision.",
+      text6:
+        "- Managed the creation of Instagram Stories, Highlights, and social media posts.",
+      text7:
+        "- Combined campaign imagery with pack shots for a polished and engaging result.",
+    },
     photo: {
       image1: "img/image/CocoNoam/1.jpg",
       image2: "img/image/CocoNoam/2.JPG",
@@ -30,8 +43,20 @@ const projects = [
   {
     id: "0102",
     name: "Department",
-    description:
-      "A creative project for DE Apartment, focusing on modern design and innovative concepts.",
+    description: {
+      text1:
+        "IN THIS PROJECT, I TOOK A PART AS THE SOCIAL MENAGER  & CREATIVE DIRECTOR.",
+      text2:
+        "- Worked closely with the client to understand their needs and create strategies to drive sales, such as promoting the jeans department.",
+      text3:
+        "- Developed unique marketing concepts to highlight the store’s trendy identity and its position as a premium fashion destination.",
+      text4:
+        "- Defined the brand’s Instagram language, tone, and style to better engage with customers.",
+      text5:
+        "- Designed Instagram Highlights and directed the visual approach for graphic design.",
+      text6:
+        "- Managed the creative team, provided clear guidance, and even created sketches to ensure precise execution.",
+    },
     photo: {
       image1: "img/image/Department/1.jpg",
       image2: "img/image/Department/2.jpg",
@@ -74,8 +99,15 @@ const projects = [
   {
     id: "0103",
     name: "di project",
-    description:
-      "A project showcasing the innovative designs and concepts of di project.",
+    description: {
+      text1: "IN THIS PROJECT, I TOOK A PART AS THE CREATIVE DIRECTOR.",
+      text2:
+        "- Developed the entire visual concept, which was approved by Vogue and other magazines.",
+      text3:
+        "- Created the mood board and led the location scouting process to bring the concept to life.",
+      text4:
+        "- Handpicked the perfect photographer to execute the vision and ensure a high-quality outcome.",
+    },
     photo: {
       image1: "img/image/di project/0ED66DE7-8A41-472C-8C9E-7977196F1445.jpg",
       image2: "img/image/di project/DSCF4884.jpg",
@@ -114,7 +146,19 @@ const projects = [
   {
     id: "0104",
     name: "ofer",
-    description: "A project by Ofer showcasing unique and creative designs.",
+    description: {
+      text1: "IN THIS PROJECT, I TOOK PART AS THE CONTENT CREATOR. ",
+      text2:
+        "- Shot and edited videos, creating content for multiple shopping malls across different locations (Haifa, Petah Tikva, etc.)",
+      text3:
+        "- Worked with the client’s office to understand their brief and create Reels, such as those focused on specific products like jeans",
+      text4:
+        "- Sourced and selected models for each shoot, ensuring the right fit for the project.",
+      text5:
+        "- Developed Instagram Stories and graphics to complement the videos, sometimes designing them myself or collaborating with others.",
+      text6:
+        "- Curated daily topics and strategies for using the content I created to keep the audience engaged.",
+    },
     photo: {
       image1: "img/image/9 עופר/New Element 13.mp4",
     },
@@ -122,8 +166,18 @@ const projects = [
   {
     id: "0105",
     name: "HumanDivinity",
-    description:
-      "A project exploring the concept of human divinity through creative designs.",
+    description: {
+      text1:
+        "- Led the creative direction for post-production by curating images, crafting storytelling concepts, and assigning campaign names.",
+      text2:
+        "- Styled and arranged visuals to create cohesive, captivating narratives.",
+      text3:
+        "- Directed the graphic design process, ensuring all elements aligned with the creative vision.",
+      text4:
+        "- Oversaw content creation for Instagram Stories, Highlights, and social media posts.",
+      text5:
+        "- Combined campaign images with pack shots for polished, branded outputs.",
+    },
     photo: {
       image1: "img/image/HumanDivinity/1.JPG",
       image2: "img/image/HumanDivinity/2.JPG",
@@ -149,8 +203,18 @@ const projects = [
   {
     id: "0106",
     name: "LookBook",
-    description:
-      "A project showcasing a collection of creative designs in a lookbook format.",
+    description: {
+      text1:
+        "IN THIS PROJECT, I TOOK A PART AS THE SOCIAL MANAGER & CREATIVE DIRECTOR.",
+      text2:
+        "- Transformed the Ronnie Kobo Moroccan Moves concept into a second campaign with a more sales-driven approach, focusing on engaging, social media-friendly stories",
+      text3:
+        "- Curated and coordinated influencer/blogger collaborations, ensuring their posts were reshared to enhance the campaign’s reach.",
+      text4:
+        "- Developed the visual storytelling approach for new promotions, focusing on how to effectively showcase products like bodysuits and other key items.",
+      text5:
+        "- Ensured the campaign maintained a cohesive aesthetic while adapting to the platform’s needs for increased reach and engagement.",
+    },
     photo: {
       image1: "img/image/LookBook/1.jpg",
       image2: "img/image/LookBook/2.jpg",
@@ -184,13 +248,29 @@ const projects = [
       image30: "img/image/LookBook/30.mp4",
       image31: "img/image/LookBook/31.png",
       image32: "img/image/LookBook/32.png",
+      image33: "img/image/LookBook/33.mp4",
+      image34: "img/image/LookBook/34.mp4",
+      image35: "img/image/LookBook/35.mp4",
+      image36: "img/image/LookBook/36.mp4",
     },
   },
   {
     id: "0107",
     name: "MuyriProduction",
-    description:
-      "A project by Muyri Production showcasing creative and innovative designs.",
+    description: {
+      text1:
+        "IN THIS PROJECT, I TOOK A PART AS THE PROJECT & TEAM DIRECTOR AND CREATIVE DIRECTOR.",
+      text2:
+        "- Directed the entire photoshoot, overseeing every aspect of the creative process.",
+      text3:
+        "- Handpicked and assembled a team, ensuring the perfect combination of talent to execute the vision",
+      text4:
+        "- Developed the concept, creating mood boards to communicate the visual direction.",
+      text5:
+        "- Scouted and selected locations to enhance the storytelling and showcase my view of Tel Aviv.",
+      text6:
+        "- Provided guidance on styling, making final decisions to ensure the looks aligned with the creative concept.",
+    },
     photo: {
       image1: "img/image/MuyriProduction/1.JPG",
       image2: "img/image/MuyriProduction/2.JPG",
@@ -211,7 +291,9 @@ const projects = [
   {
     id: "0108",
     name: "NYC",
-    description: "A project capturing the essence and beauty of New York City.",
+    description: {
+      text1: "IN THIS PROJECT, I TOOK A PART AS THE SOCIAL MANAGER.",
+    },
     photo: {
       image1: "img/image/NYC/1.JPG",
       image2: "img/image/NYC/2.jpg",
@@ -230,7 +312,18 @@ const projects = [
   {
     id: "0109",
     name: "packsh",
-    description: "A project showcasing the creative designs of Packsh.",
+    description: {
+      text1:
+        "IN THIS PROJECT, I TOOK A PART AS THE SOCIAL MEDIA MANAGER & CREATIVE DIRECTOR ",
+      text2:
+        "- Transformed the Ronnie Kobo Moroccan Moves concept into a second campaign with a more sales-driven approach, focusing on engaging, social media-friendly stories.",
+      text3:
+        "- Curated and coordinated influencer/blogger collaborations, ensuring their posts were reshared to enhance the campaign’s reach.",
+      text4:
+        "- Developed the visual storytelling approach for new promotions, focusing on how to effectively showcase products like bodysuits and other key items.",
+      text5:
+        "- Ensured the campaign maintained a cohesive aesthetic while adapting to the platform’s needs for increased reach and engagement.",
+    },
     photo: {
       image1: "img/image/packsh/1.JPG",
       image2: "img/image/packsh/2.JPG",
@@ -246,7 +339,21 @@ const projects = [
   {
     id: "01010",
     name: "roni",
-    description: "A project by Roni showcasing unique and creative designs.",
+    description: {
+      text1:
+        "IN THIS PROJECT, I TOOK A PART AS THE SOCIAL MEDIA MANAGER & CREATIVE DIRECTOR ",
+      text2:
+        "-  Ensured sufficient materials were created for both social media and post-production.",
+      text3: "- Developed the campaign name and storytelling framework.",
+      text4:
+        "- Managed and directed the design team and graphic designers to meet deadlines and maintain creative consistency",
+      text5:
+        "- Selected final images, wrote campaign names, and crafted captions aligned with the brand's vision.",
+      text6:
+        "- Designed and executed Instagram Stories and Highlights to enhance audience engagement.",
+      text7:
+        "- Combined campaign visuals with pack shots for a cohesive presentation across platforms",
+    },
     photo: {
       image1: "img/image/roni/1.mp4",
       image2: "img/image/roni/2.jpg",
@@ -274,8 +381,9 @@ const projects = [
   {
     id: "01011",
     name: "vogue-coco",
-    description:
-      "A project by Vogue Coco showcasing unique and creative designs.",
+    description: {
+      text1: "IN THIS PROJECT, I TOOK A PART AS THE SOCIAL MANAGER  ",
+    },
     photo: {
       image1: "img/image/vogue-coco/1.png",
       image2: "img/image/vogue-coco/2.png",
@@ -288,7 +396,17 @@ const projects = [
   {
     id: "01012",
     name: "wow-london",
-    description: "A project capturing the essence and beauty of London.",
+    description: {
+      text1: "IN THIS PROJECT, I TOOK A PART AS THE SOCIAL MEDIA  MANAGER.",
+      text2:
+        "- Filmed and created videos that were used for Reels and Instagram Stories.",
+      text3:
+        "- Designed Instagram Highlights and developed a content schedule with thematic topics",
+      text4:
+        "- Collaborated with a graphic designer, providing guidance on fonts and visual elements to maintain brand consistency",
+      text5:
+        "- Coordinated closely with an independent visual creator to align with the overall creative vision.",
+    },
     photo: {
       image1: "img/image/wow-london/1.JPG",
       image2: "img/image/wow-london/2.JPG",
@@ -314,9 +432,16 @@ const projects = [
   {
     id: "01013",
     name: "video",
-    description: "A project showcasing creative video content.",
+    description: {
+      text1: "IN THIS PROJECT, I TOOK PART AS THE VIDEO DIRECTOR & EDITOR ",
+      text2:
+        "- Shot and edited all the videos, overseeing the entire production process.",
+      text3:
+        "- Managed the creative direction to ensure the videos aligned with the project's vision.",
+    },
     photo: {
       image1: "img/image/Video/VID-20241204-WA0092.mp4",
+      image2: "img/image/Video/2.mp4",
     },
   },
 ];

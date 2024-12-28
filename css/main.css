@@ -508,7 +508,12 @@ a {
   z-index: 1000;
 }
 .project-description{
-  color: #f3f042;
+  color: #bcbcb6;
+  font-size: 18px;
+  text-align: center;
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .carousel-modal .modal-content {
@@ -526,7 +531,7 @@ a {
   right: 35px;
   background: transparent;
   border: none;
-  color: #f3f042;
+  color: #b1b1af;
   font-size: 45px;
   cursor: pointer;
 }
@@ -719,42 +724,44 @@ a {
 
 }
 
-@media(max-width:930px){
-    .project_Five{
-  max-width: 360px; 
-  margin-top: 0;
-  
+@media(max-width:1024px){
+.project_One,  .project_Two{
+width: 360px; 
+margin: 2%;
 }
-    .project_three{
-  max-width: 360px; 
-  margin-top: 25%;
-  
+.project_three{
+  max-width: 460px;
+  margin-top: 5%;
+  margin-right: 2%;
 }
-.project_Six{
-  max-width: 360px; 
-  margin-top: 40%;
-  
-}
-.project_Eight{
+.project_four{
   max-width: 360px;
-  max-height: 550px;
-  margin-top: 0%;
+  margin-top:  50%;
 }
-.project_Nine{
-  max-width: 360px;
-  margin-top: 30%;
-
+.project_Six, .project_Seven, .project_Eight, .project_Nine{
+ width: 360px;
+margin-right: 2%;
+}
+.project_Ten{
+  min-width: 460px;
+  margin-left: 9%;
 }
 .project_Eleven{
-  max-width: 360px;
-  margin-top: 5%;
+  max-width: 520px;
+  margin-top: 0%;
+  margin-left: 20%;
+}
+.project_Twelve{
+  max-width: 460px;
+  margin-top: 0%;
+  margin-left: 10%;
 }
 .project_Thirteen{
-  max-width: 360px;
-  margin-top: 5%;
+  max-width: 460px;
+  margin-top: 0%;
+  margin-left: 10%;
 }
 }
-
 @media(max-width:1420px){
     .project_Five, .project_One, .project_Seven, .project_four, .project_Two, .project_Eight{
   max-width: 420px; 

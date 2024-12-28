@@ -77,14 +77,22 @@ function openCarousel(projectId) {
       .map((mediaUrl) => renderMediaItem(mediaUrl))
       .join("");
 
-    // Add project description
-    const descriptionSlide = document.createElement("div");
-    descriptionSlide.className = "swiper-slide";
-    const descriptionElement = document.createElement("p");
-    descriptionElement.className = "project-description";
-    descriptionElement.textContent = project.description;
-    descriptionSlide.appendChild(descriptionElement);
-    carouselTrack.insertBefore(descriptionSlide, carouselTrack.firstChild); // Insert at the beginning
+    // Add project description to the first slide
+    const descriptionContainer = document.createElement('div');
+    descriptionContainer.className = 'swiper-slide description-container';
+    descriptionContainer.style.fontWeight = 'bold';
+    descriptionContainer.style.display = 'flex';
+    descriptionContainer.style.flexDirection = 'column';
+    descriptionContainer.style.gap = '40px';
+    
+    Object.values(project.description).forEach(value => {
+      const descriptionElement = document.createElement('p');
+      descriptionElement.className = 'project-description';
+      descriptionElement.textContent = value;
+      descriptionContainer.appendChild(descriptionElement);
+    });
+    
+    carouselTrack.insertBefore(descriptionContainer, carouselTrack.firstChild);
 
     // Initialize Swiper if not already initialized
     if (!swiperInstance) {
