@@ -77,6 +77,15 @@ function openCarousel(projectId) {
       .map((mediaUrl) => renderMediaItem(mediaUrl))
       .join("");
 
+    // Add project description
+    const descriptionSlide = document.createElement("div");
+    descriptionSlide.className = "swiper-slide";
+    const descriptionElement = document.createElement("p");
+    descriptionElement.className = "project-description";
+    descriptionElement.textContent = project.description;
+    descriptionSlide.appendChild(descriptionElement);
+    carouselTrack.insertBefore(descriptionSlide, carouselTrack.firstChild); // Insert at the beginning
+
     // Initialize Swiper if not already initialized
     if (!swiperInstance) {
       swiperInstance = new Swiper(".swiper", {
@@ -146,6 +155,7 @@ function renderMediaItem(mediaUrl) {
     return `
       <div class="swiper-slide">
         <img src="${mediaUrl}" class="carousel-image" alt="Project Media">
+        
       </div>`;
   }
 }

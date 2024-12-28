@@ -284,20 +284,37 @@ a {
   font-weight: 900;
   letter-spacing:0.5px;
   
+} 
+
+.button{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  font-style: italic;
+  padding: 10px 20px;
 
   
+ 
+ 
 }
+.Creative{
+  padding: 15px;
+  margin: -4%;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-style: italic;
+} 
+.span{
+  margin-bottom: 10px;
+}
+.list{
+  margin-bottom: 10px;
+}
+
 .textSocialTitle p {
   max-width: 400px;
   letter-spacing: 0.2px;
   text-align: justify;
-}
-.btnViewProject {
-  font-size: 16px;
-  font-family: "PT Serif", serif;
-  font-weight: 600;
-  font-style: italic;
-  margin-bottom: 20px;
 }
 
 .item{
@@ -315,6 +332,15 @@ a {
   row-gap: 20px;
 
  
+}
+.cityscape{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  
+}
+.kunst{
+  font-size: large;
 }
 
 .project {
@@ -453,7 +479,6 @@ a {
   max-height: 0;
   overflow: hidden;
   text-align: justify;
-  /* color: #fff; */
   margin-bottom: 5px;
 }
 .accordionButton {
@@ -463,6 +488,10 @@ a {
   margin: -4px;
   text-transform: uppercase;
   margin-bottom: 10px;
+  display: flex;
+  justify-content: left;
+  display: flex;
+  justify-content: space-between;
 }
 /* Modal */
 /* Modal container */
@@ -477,6 +506,9 @@ a {
   justify-content: center;
   align-items: center;
   z-index: 1000;
+}
+.project-description{
+  color: #f3f042;
 }
 
 .carousel-modal .modal-content {

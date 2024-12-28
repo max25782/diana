@@ -2,6 +2,8 @@ const projects = [
   {
     id: "0101",
     name: "Coconut",
+    description:
+      "A collaboration project showcasing the unique designs of Coconut Love and Noam Bohadana.",
     photo: {
       image1: "img/image/CocoNoam/1.jpg",
       image2: "img/image/CocoNoam/2.JPG",
@@ -28,6 +30,8 @@ const projects = [
   {
     id: "0102",
     name: "Department",
+    description:
+      "A creative project for DE Apartment, focusing on modern design and innovative concepts.",
     photo: {
       image1: "img/image/Department/1.jpg",
       image2: "img/image/Department/2.jpg",
@@ -64,12 +68,14 @@ const projects = [
       image33: "img/image/Department/33.jpg",
       image34: "img/image/Department/34.jpg",
       image35: "img/image/Department/35.jpg",
-      image36: "img/image/Department/36.jpg"
+      image36: "img/image/Department/36.jpg",
     },
   },
   {
     id: "0103",
     name: "di project",
+    description:
+      "A project showcasing the innovative designs and concepts of di project.",
     photo: {
       image1: "img/image/di project/0ED66DE7-8A41-472C-8C9E-7977196F1445.jpg",
       image2: "img/image/di project/DSCF4884.jpg",
@@ -108,6 +114,7 @@ const projects = [
   {
     id: "0104",
     name: "ofer",
+    description: "A project by Ofer showcasing unique and creative designs.",
     photo: {
       image1: "img/image/9 עופר/New Element 13.mp4",
     },
@@ -115,6 +122,8 @@ const projects = [
   {
     id: "0105",
     name: "HumanDivinity",
+    description:
+      "A project exploring the concept of human divinity through creative designs.",
     photo: {
       image1: "img/image/HumanDivinity/1.JPG",
       image2: "img/image/HumanDivinity/2.JPG",
@@ -140,6 +149,8 @@ const projects = [
   {
     id: "0106",
     name: "LookBook",
+    description:
+      "A project showcasing a collection of creative designs in a lookbook format.",
     photo: {
       image1: "img/image/LookBook/1.jpg",
       image2: "img/image/LookBook/2.jpg",
@@ -178,6 +189,8 @@ const projects = [
   {
     id: "0107",
     name: "MuyriProduction",
+    description:
+      "A project by Muyri Production showcasing creative and innovative designs.",
     photo: {
       image1: "img/image/MuyriProduction/1.JPG",
       image2: "img/image/MuyriProduction/2.JPG",
@@ -192,12 +205,13 @@ const projects = [
       image11: "img/image/MuyriProduction/11.JPG",
       image12: "img/image/MuyriProduction/12.JPG",
       image13: "img/image/MuyriProduction/13.mp4",
-      image14: "img/image/MuyriProduction/14.png"
+      image14: "img/image/MuyriProduction/14.png",
     },
   },
   {
     id: "0108",
     name: "NYC",
+    description: "A project capturing the essence and beauty of New York City.",
     photo: {
       image1: "img/image/NYC/1.JPG",
       image2: "img/image/NYC/2.jpg",
@@ -216,6 +230,7 @@ const projects = [
   {
     id: "0109",
     name: "packsh",
+    description: "A project showcasing the creative designs of Packsh.",
     photo: {
       image1: "img/image/packsh/1.JPG",
       image2: "img/image/packsh/2.JPG",
@@ -231,6 +246,7 @@ const projects = [
   {
     id: "01010",
     name: "roni",
+    description: "A project by Roni showcasing unique and creative designs.",
     photo: {
       image1: "img/image/roni/1.mp4",
       image2: "img/image/roni/2.jpg",
@@ -258,6 +274,8 @@ const projects = [
   {
     id: "01011",
     name: "vogue-coco",
+    description:
+      "A project by Vogue Coco showcasing unique and creative designs.",
     photo: {
       image1: "img/image/vogue-coco/1.png",
       image2: "img/image/vogue-coco/2.png",
@@ -270,6 +288,7 @@ const projects = [
   {
     id: "01012",
     name: "wow-london",
+    description: "A project capturing the essence and beauty of London.",
     photo: {
       image1: "img/image/wow-london/1.JPG",
       image2: "img/image/wow-london/2.JPG",
@@ -295,13 +314,11 @@ const projects = [
   {
     id: "01013",
     name: "video",
+    description: "A project showcasing creative video content.",
     photo: {
       image1: "img/image/Video/VID-20241204-WA0092.mp4",
     },
   },
 ];
 
-
-export {
-    projects
-};
+export { projects };
