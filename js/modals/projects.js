@@ -442,6 +442,15 @@ const projects = [
     photo: {
       image1: "img/image/Video/VID-20241204-WA0092.mp4",
       image2: "img/image/Video/2.mp4",
+      image3: "img/image/Video/3.mp4",
+      image4: "img/image/Video/4.mp4",
+      image5: "img/image/Video/5.mp4",
+      image6: "img/image/Video/6.mp4",
+      image7: "img/image/Video/7.mp4",
+      image8: "img/image/Video/8.mp4",
+      image9: "img/image/Video/9.mp4",
+
+
     },
   },
 ];
