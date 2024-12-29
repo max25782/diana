@@ -160,7 +160,12 @@ const projects = [
         "- Curated daily topics and strategies for using the content I created to keep the audience engaged.",
     },
     photo: {
-      image1: "img/image/9 עופר/New Element 13.mp4",
+      image1: "img/image/ofer/New Element 13.mp4",
+      image2: "img/image/ofer/1.mp4",
+      image3: "img/image/ofer/2.mp4", 
+      image4: "img/image/ofer/3.mp4",
+      image5: "img/image/ofer/4.mp4",
+      image6: "img/image/ofer/5.mp4",
     },
   },
   {
