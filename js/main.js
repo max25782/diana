@@ -111,12 +111,12 @@ function openCarousel(projectId) {
             spaceBetween: 5,
           },
           480: {
-            slidesPerView: 1.5,
-            spaceBetween: 10,
+            slidesPerView: 1,
+            spaceBetween: 0,
           },
           768: {
             slidesPerView: 1.5,
-            spaceBetween: 10,
+            spaceBetween: 5,
           },
           1024: {
             slidesPerView: 3.5,
