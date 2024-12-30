@@ -528,6 +528,9 @@ a {
 
 @media (max-width: 620px) {
   /* Header  */
+.project{
+  max-width: 360px;
+}
   .wrapper {
     background-image: url("../img/image/IMG_6822.jpg");
     width: 100%;
@@ -600,7 +603,7 @@ a {
   }
 
   /* Project page */
-
+ 
   .project-details__desc {
     margin-bottom: 20px;
     font-size: 22px;
@@ -631,6 +634,15 @@ a {
   .project_Nine {
     margin-top: 40%;
   }
+  .project_Ten{
+ 
+
+  }
+ 
+.project video{
+  max-width: 100%;
+}
+
 
   /* Content List */
 
@@ -643,6 +655,7 @@ a {
   }
   .project_Eleven {
     margin-top: 10%;
+    padding-right: 10%;
   }
   .project_Thirteen {
     margin-top: 0%;

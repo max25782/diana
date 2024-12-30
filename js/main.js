@@ -108,7 +108,7 @@ function openCarousel(projectId) {
         breakpoints: {
           320: {
             slidesPerView: 1,
-            spaceBetween: 5,
+            spaceBetween: 0,
           },
           480: {
             slidesPerView: 1,
