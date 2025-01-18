@@ -120,7 +120,7 @@ function openCarousel(projectId) {
           },
           1024: {
             slidesPerView: 3.5,
-            spaceBetween: 10,
+            spaceBetween: 5,
           },
         },
       });
