@@ -4,9 +4,9 @@ const projects = [
     name: "Coconut",
     description: {
       text1:
-        "IN THIS PROJECT, I TOOK A PART AS THE SOCIAL MENAGER  & CREATIVE DIRECTOR.",
+        "IN THIS PROJECT, I TOOK A PART AS THE SOCIAL MEDIA MANAGER  & CREATIVE DIRECTOR.",
       text2:
-        "- Led the creative direction for post-production, transforming raw visuals into a cohesive story.",
+        "- Transformed raw visuals into a cohesive story.",
       text3: "- Curated and styled images to craft a captivating narrative.",
       text4:
         "- Developed storytelling concepts and campaign names to bring the project to life.",
@@ -45,7 +45,7 @@ const projects = [
     name: "Department",
     description: {
       text1:
-        "IN THIS PROJECT, I TOOK A PART AS THE SOCIAL MENAGER  & CREATIVE DIRECTOR.",
+        "IN THIS PROJECT, I TOOK A PART AS THE SOCIAL MEDIA MANAGER & CREATIVE DIRECTOR.",
       text2:
         "- Worked closely with the client to understand their needs and create strategies to drive sales, such as promoting the jeans department.",
       text3:
@@ -173,7 +173,7 @@ const projects = [
     name: "HumanDivinity",
     description: {
       text1:
-        "- Led the creative direction for post-production by curating images, crafting storytelling concepts, and assigning campaign names.",
+        "- took apart in creative direction the creative direction for post-production by curating images, crafting storytelling concepts, and assigning campaign names.",
       text2:
         "- Styled and arranged visuals to create cohesive, captivating narratives.",
       text3:
@@ -210,7 +210,7 @@ const projects = [
     name: "LookBook",
     description: {
       text1:
-        "IN THIS PROJECT, I TOOK A PART AS THE SOCIAL MANAGER & CREATIVE DIRECTOR.",
+        "IN THIS PROJECT, I TOOK A PART AS THE SOCIAL MEDIA MANAGER & CREATIVE DIRECTOR.",
       text2:
         "- Transformed the Ronnie Kobo Moroccan Moves concept into a second campaign with a more sales-driven approach, focusing on engaging, social media-friendly stories",
       text3:
@@ -297,7 +297,7 @@ const projects = [
     id: "0108",
     name: "NYC",
     description: {
-      text1: "IN THIS PROJECT, I TOOK A PART AS THE SOCIAL MANAGER.",
+      text1: "IN THIS PROJECT, I TOOK A PART AS THE SOCIAL MEDIA MANAGER.",
     },
     photo: {
       image1: "img/image/NYC/1.JPG",
@@ -321,13 +321,15 @@ const projects = [
       text1:
         "IN THIS PROJECT, I TOOK A PART AS THE SOCIAL MEDIA MANAGER & CREATIVE DIRECTOR ",
       text2:
-        "- Transformed the Ronnie Kobo Moroccan Moves concept into a second campaign with a more sales-driven approach, focusing on engaging, social media-friendly stories.",
+        "- Took a part in   social media creative direction for post-production by curating images, crafting storytelling concepts, and assigning campaign names.",
       text3:
-        "- Curated and coordinated influencer/blogger collaborations, ensuring their posts were reshared to enhance the campaign’s reach.",
+        "- Styled and arranged visuals to create cohesive, captivating narratives.",
       text4:
-        "- Developed the visual storytelling approach for new promotions, focusing on how to effectively showcase products like bodysuits and other key items.",
+        "- Directed the graphic design process, ensuring all elements aligned with the creative vision.",
       text5:
-        "- Ensured the campaign maintained a cohesive aesthetic while adapting to the platform’s needs for increased reach and engagement.",
+        "- Oversaw content creation for Instagram Stories, Highlights, and social media posts. ",
+      text6:
+        "- Combined campaign images with pack shots for polished, branded outputs."
     },
     photo: {
       image1: "img/image/packsh/1.JPG",
@@ -387,7 +389,7 @@ const projects = [
     id: "01011",
     name: "vogue-coco",
     description: {
-      text1: "IN THIS PROJECT, I TOOK A PART AS THE SOCIAL MANAGER  ",
+      text1: "IN THIS PROJECT, I TOOK A PART AS THE SOCIAL MEDIA MANAGER  ",
     },
     photo: {
       image1: "img/image/vogue-coco/1.png",
@@ -403,8 +405,6 @@ const projects = [
     name: "wow-london",
     description: {
       text1: "IN THIS PROJECT, I TOOK A PART AS THE SOCIAL MEDIA  MANAGER.",
-      text2:
-        "- Filmed and created videos that were used for Reels and Instagram Stories.",
       text3:
         "- Designed Instagram Highlights and developed a content schedule with thematic topics",
       text4:

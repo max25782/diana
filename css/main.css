@@ -508,10 +508,8 @@ a {
 
 .carousel-image {
   width: 100%;
-  height: 100%;
-  max-height: 100vh;
-  object-fit: contain; /* Сохраняет соотношение сторон */
-  overflow: hidden;
+  height: 90%;
+  max-height: 90vh;
 }
 .swiper-button-next,
 .swiper-button-prev {
@@ -526,8 +524,6 @@ a {
 .carousel-video {
   max-width: 100%;
   max-height: 100vh;
-  object-fit: contain; /* Сохраняет соотношение сторон */
-  overflow: hidden;    /* Убирает возможные полосы прокрутки */
 }
 .modal-close {
   z-index: 100;
